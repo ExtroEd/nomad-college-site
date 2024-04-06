@@ -1,0 +1,38 @@
+.header{
+    padding: 10px 0;
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__menu{
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+        &-item{
+            a{
+                color: #222;
+                font-family: "Open Sans", Helvetica, Arial, sans-serif;
+                font-size: 17px;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: initial;
+                font-weight: bold;
+                transition: 0.2s;
+                &.active{
+                    color: darkred;
+                }
+            }
+            &:hover{
+                transform: translateY(-4px);
+            }
+        }
+    }
+    &__logo{
+        width: 170px;
+        height: 68px;
+        img{
+            width: 100%;
+        }
+    }
+}

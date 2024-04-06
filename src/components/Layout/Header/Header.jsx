@@ -1,4 +1,8 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { FaInstagram } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Header = () => {
     return (
@@ -6,29 +10,42 @@ const Header = () => {
             <div className="container">
                 <div className="header__nav">
                     <h1 className={"header__logo"}>
-
+                        <img src="https://nomad.iuk.kg/wp-content/uploads/2022/07/cropped-NC_logo.png" alt="Logo" />
                     </h1>
                     <ul className={"header__menu"}>
                         <li className={"header__menu-item"}>
-                            О нас
+                            <NavLink to={"/about"}>
+                                О нас
+                            </NavLink>
                         </li>
                         <li className={"header__menu-item"}>
-                            Направления
+                            <NavLink to={"/"}>
+                                Направления
+                            </NavLink>
                         </li>
                         <li className={"header__menu-item"}>
-                            Цены
+                            <NavLink to={"/"}>
+                                Цены
+                            </NavLink>
                         </li>
                         <li className={"header__menu-item"}>
-                            Как поступить
+                            <NavLink to={"/"}>
+                                Список студентов
+                            </NavLink>
                         </li>
                         <li className={"header__menu-item"}>
-                            Контакты
+                            <NavLink to={"/contact"}>
+                                Контакты
+                            </NavLink>
                         </li>
                         <li className={"header__menu-item"}>
-                            о нас
+                            <FaInstagram />
                         </li>
                         <li className={"header__menu-item"}>
-                            о нас
+                            <FaTelegram />
+                        </li>
+                        <li className={"header__menu-item"}>
+                            <FaWhatsapp />
                         </li>
                     </ul>
                 </div>

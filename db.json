@@ -2,8 +2,73 @@
     "students":[
         {
             "id": 1,
-            "name": "Maruff"
-
+            "name": "Maruff",
+            "year": "17",
+            "line": "IT Developer data",
+            "faculty": "Information technology for business",
+            "rating": 126,
+            "genre": "man",
+            "img": "./images/Maruff.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Nazik",
+            "year": "17",
+            "line": "IT Developer Front-end",
+            "faculty": "Information technology for business",
+            "rating": 1,
+            "genre": "woman",
+            "img": "./images/Nazik.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Umar",
+            "year": "17",
+            "line": "IT Developer Dart",
+            "faculty": "Information technology for business",
+            "rating": 3,
+            "genre": "man",
+            "img": "./images/Umar.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Erbol",
+            "year": "17",
+            "line": "IT Game Developer",
+            "faculty": "Information technology for business",
+            "rating": 2,
+            "genre": "man",
+            "img": "./images/Erbol.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Eldar",
+            "year": "17",
+            "line": "none",
+            "faculty": "Information technology for business",
+            "rating": 112,
+            "genre": "man",
+            "img": "./images/Eldar.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Nazar",
+            "year": "17",
+            "line": "IT Developer Front-end",
+            "faculty": "Information technology for business",
+            "rating": 156,
+            "genre": "man",
+            "img": "./images/Nazar.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Samat",
+            "year": "17",
+            "line": "IT Game Developer",
+            "faculty": "Information technology for business",
+            "rating": 9,
+            "genre": "man",
+            "img": "./images/Samat.jpg"
         }
     ]
 }

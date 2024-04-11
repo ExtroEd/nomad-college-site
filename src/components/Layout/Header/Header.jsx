@@ -29,7 +29,7 @@ const Header = () => {
                             </NavLink>
                         </li>
                         <li className={"header__menu-item"}>
-                            <NavLink to={"/"}>
+                            <NavLink to={"/students"}>
                                 Список студентов
                             </NavLink>
                         </li>

@@ -8,7 +8,8 @@
             "faculty": "Information technology for business",
             "rating": 126,
             "genre": "man",
-            "img": "./images/Maruff.jpg"
+            "img": "./images/Maruff.jpg",
+            "group": "CS-4-22"
         },
         {
             "id": 2,
@@ -18,7 +19,8 @@
             "faculty": "Information technology for business",
             "rating": 1,
             "genre": "woman",
-            "img": "./images/Nazik.jpg"
+            "img": "./images/Nazik.jpg",
+            "group": "CS-4-22"
         },
         {
             "id": 3,
@@ -28,7 +30,8 @@
             "faculty": "Information technology for business",
             "rating": 3,
             "genre": "man",
-            "img": "./images/Umar.jpg"
+            "img": "./images/Umar.jpg",
+            "group": "CS-4-22"
         },
         {
             "id": 4,
@@ -38,7 +41,8 @@
             "faculty": "Information technology for business",
             "rating": 2,
             "genre": "man",
-            "img": "./images/Erbol.jpg"
+            "img": "./images/Erbol.jpg",
+            "group": "CS-4-22"
         },
         {
             "id": 5,
@@ -48,7 +52,8 @@
             "faculty": "Information technology for business",
             "rating": 112,
             "genre": "man",
-            "img": "./images/Eldar.jpg"
+            "img": "./images/Eldar.jpg",
+            "group": "CS-2-22"
         },
         {
             "id": 6,
@@ -58,7 +63,8 @@
             "faculty": "Information technology for business",
             "rating": 156,
             "genre": "man",
-            "img": "./images/Nazar.jpg"
+            "img": "./images/Nazar.jpg",
+            "group": "CS-4-22"
         },
         {
             "id": 7,
@@ -68,7 +74,8 @@
             "faculty": "Information technology for business",
             "rating": 9,
             "genre": "man",
-            "img": "./images/Samat.jpg"
+            "img": "./images/Samat.jpg",
+            "group": "CS-4-22"
         }
     ]
 }

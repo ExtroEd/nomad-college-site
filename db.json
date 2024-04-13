@@ -9,7 +9,12 @@
             "rating": 126,
             "genre": "man",
             "img": "./images/Maruff.jpg",
-            "group": "CS-4-22"
+            "group": "CS-4-22",
+            "contact": {
+                "inst": "maruff_abdusattarov_",
+                "tel": "0 550 112 262",
+                "email": "maruffabdusattarov@gmail.com"
+            }
         },
         {
             "id": 2,
@@ -20,7 +25,12 @@
             "rating": 1,
             "genre": "woman",
             "img": "./images/Nazik.jpg",
-            "group": "CS-4-22"
+            "group": "CS-4-22",
+            "contact": {
+                "inst": "_.shi.ya",
+                "tel": "+996 990 150 436",
+                "email": "torogulovanaz06@gmail.com"
+            }
         },
         {
             "id": 3,
@@ -31,7 +41,12 @@
             "rating": 3,
             "genre": "man",
             "img": "./images/Umar.jpg",
-            "group": "CS-4-22"
+            "group": "CS-4-22",
+            "contact": {
+                "inst": "umaaachw",
+                "tel": "+996 703 246 004",
+                "email": "umarbedelbaev@gmail.com"
+            }
         },
         {
             "id": 4,
@@ -42,7 +57,12 @@
             "rating": 2,
             "genre": "man",
             "img": "./images/Erbol.jpg",
-            "group": "CS-4-22"
+            "group": "CS-4-22",
+            "contact": {
+                "inst": "erbo._o",
+                "tel": "+996 223 301 206",
+                "email": "kamcybekoverbol68@gmail.com"
+            }
         },
         {
             "id": 5,
@@ -53,7 +73,12 @@
             "rating": 112,
             "genre": "man",
             "img": "./images/Eldar.jpg",
-            "group": "CS-2-22"
+            "group": "CS-2-22",
+            "contact": {
+                "inst": "lazyfrokka",
+                "tel": "+996 774 947 777",
+                "email": "frokka24@gmail.com"
+            }
         },
         {
             "id": 6,
@@ -64,7 +89,12 @@
             "rating": 156,
             "genre": "man",
             "img": "./images/Nazar.jpg",
-            "group": "CS-4-22"
+            "group": "CS-4-22",
+            "contact": {
+                "inst": "lazyfrokka",
+                "tel": "+996 774 947 777",
+                "email": "frokka24@gmail.com"
+            }
         },
         {
             "id": 7,
@@ -75,7 +105,12 @@
             "rating": 9,
             "genre": "man",
             "img": "./images/Samat.jpg",
-            "group": "CS-4-22"
+            "group": "CS-4-22",
+            "contact": {
+                "inst": "Tr.uman3445",
+                "tel": "0 555 773 130",
+                "email": "kc653965@gmail.com"
+            }
         }
     ]
 }

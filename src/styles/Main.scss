@@ -1,0 +1,167 @@
+.main{
+    width: 100%;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    .first{
+        padding-top: 180px;
+        padding-left: 100px;
+        h1{
+            color: #fff;
+            font-weight: bold;
+            text-shadow: 1px 1.5px 1px #000;
+            font-size: 40px;
+            margin: 0 0 -5px 0;
+            margin: 5px 0;
+        }
+        h2{
+            margin: 12px 0;
+            color: #fff;
+            text-shadow: 1px 1.5px 1px #000;
+            font-size: 25px;
+            font-weight: 600;
+            text-decoration: underline red;
+        }
+        .logo-text{
+            display: flex;
+            align-items: center;
+            img{
+                width: 70px;
+            }
+            h1{
+                color: #c32728;
+                font-weight: 900;
+                font-size: 50px;
+                text-shadow: 1.5px 1.5px 1px #fff;
+            }
+        }
+        color: white;
+
+        width: 100%;
+        height: 75vh;
+        background: url('https://nomad.iuk.kg/wp-content/uploads/2022/07/zatemnenie-TOPa-Nomad-3.jpg') center/cover no-repeat;
+        button{
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 0.2px;
+            font-weight: 500;
+            padding: 16px 28px;
+            background: #0000008a;
+            border: 1px solid #fff;
+            border-radius: 7px;
+            font-size: 17px;
+            font-family: "Raleway", Helvetica, Arial, sans-serif;
+            text-shadow: 0.5px 0.5px 1px #000;
+            margin: 0 10px 0 0 ;
+        }
+        button:hover{
+            background-color: #c32728;
+            border: #c32728;
+        }
+    }
+    .second{
+        background: #f1f1f1;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px 130px;
+        p{
+            font-size: 17px;
+            color: rgb(22, 22, 22);
+        }
+    }
+    .cards{
+        margin-top: 50px;
+        text-align: center;
+        h1{
+            font-size: 35px;
+            color: rgb(22, 22, 22);
+        }
+        p{
+            color: #c32728;
+            font-size: 20px;
+        }
+        .cardss{
+            padding: 30px 100px;
+
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            .card{
+                background: url('https://nomad.iuk.kg/wp-content/uploads/2022/07/programmirovanie.jpg') center/cover;
+                width:  calc(33.33% - 20px);
+                margin: 10px;
+                height: 500px;
+                background-color: #f0f0f0;
+                padding: 20px;
+                flex-wrap: wrap;
+                box-sizing: border-box;
+                position: relative;
+                padding-top: 420px;
+
+            }
+            .card:hover .text {
+                transform: none;
+            }
+            .text{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);;
+                color: white ; 
+                top: 0;
+                left: 0;
+                transform: scale(0);
+                p{
+                    color: white;
+                    background: none;
+                }
+            }
+
+        }
+    }
+    .cost{
+        padding: 50px 0;
+        background-color: #f1f1f1;
+        text-align: center;
+        h1{
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        p{
+            text-align: center;
+            font-size: 19px;
+            color: #c32728;
+            letter-spacing: 0.2px;
+            margin: -15px auto 25px;
+            padding: 20px 200px;
+        }
+        .table{
+            text-align: left;
+            width: 100%;
+            padding: 30px 100px;
+            display: flex;
+            justify-content: center;
+            table,tr,td{
+                background-color: white;
+                color: rgb(19, 19, 19);
+                padding: 5px;
+                width: 90%;
+                border: 1px solid black ;
+                border-collapse: collapse;
+                img{
+                    width: 45px;
+                }
+            }
+        }
+    }
+    .back2{
+        width: 100%;
+        height: 80vh;
+
+    }
+}

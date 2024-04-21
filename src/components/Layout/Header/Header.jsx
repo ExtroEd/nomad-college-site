@@ -19,12 +19,12 @@ const Header = () => {
                             </NavLink>
                         </li>
                         <li className={"header__menu-item"}>
-                            <NavLink to={"/"}>
+                            <NavLink to={"/spec"}>
                                 Направления
                             </NavLink>
                         </li>
                         <li className={"header__menu-item"}>
-                            <NavLink to={"/"}>
+                            <NavLink to={"/price"}>
                                 Цены
                             </NavLink>
                         </li>

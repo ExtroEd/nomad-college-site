@@ -14,9 +14,10 @@ const Main = () => {
             </section>
             <section className='second'>
                 <img src="https://nomad.iuk.kg/wp-content/uploads/2022/07/eksterer-1.png" alt="" />
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem delectus sed iste. Laudantium quos itaque quas ipsam vitae, recusandae aspernatur? Soluta dolor ducimus fugit aut fugiat voluptatum. Ut, necessitatibus? Veniam.      
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati excepturi ipsam velit. Facere consequuntur, ea alias officiis dolorem illum dolor eligendi architecto maiores, repellendus delectus error, eum recusandae aperiam.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur incidunt eaque tempore adipisci deserunt libero quibusdam architecto. Aspernatur cum asperiores reprehenderit! Ullam perferendis minus facere accusantium ad deserunt rerum ut.
+                <p>Мы готовим специалистов, способных уверенно принимать решения в условиях быстроменяющегося мира, умеющих креативно мыслить и готовых к вызовам современного рынка 
+                труда!<br/><br/>«Номад Колледж» имеет всё для комфортного погружения в образовательный процесс. Для всех направлений подготовки имеются специализированные кабинеты
+                и лаборатории. Также на базе колледжа организован NOMAD HUB — уникальное место, где студенты могут заниматься самостоятельным обучением, проводить собрания и вести
+                свой факультатив
                 </p>
             </section>
             <section className='cards'>
@@ -24,38 +25,50 @@ const Main = () => {
                 <p>Длительность обучения - 2 годы 10 месяцев</p>
                 <div className="cardss">
                     <div className='card'>
-                    <div className='text'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat porro accusamus in natus blanditiis sequi minima numquam cumque iure quis, quidem laudantium ipsum et, rem nobis pariatur molestiae eius dolorum.</p></div>
-                        <p>программирование</p>
+                    <div className='text'><p>Если ты хочешь освоить востребованную профессию, зарабатывать больше и построить успешную карьеру, то наша программа предлагает широкий
+                        спектр разработки программного обеспечения, владеющих современными IT-технологиями, гибкими навыками и владеющих контентом о состоянии и тенденциях развития
+                        бизнеса методами и средствами business intelligence</p></div>
+                        <p>Программирование</p>
                     </div>
-                    <div className='card'>
-                    <div className='text'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat porro accusamus in natus blanditiis sequi minima numquam cumque iure quis, quidem laudantium ipsum et, rem nobis pariatur molestiae eius dolorum.</p></div>
-                        <p>программирование</p>
+                    <div className='card__2'>
+                    <div className='text'><p>Переводчик – одна из самых благородных профессий, призванная объединять людей. Человек, владеющий иностранным языком может не только
+                        построить мост между представителями разных стран, но и может повлиять на изменение политической и экономической ситуации в стране. Студенты учатся в современном
+                        инновационном колледже и изучают в качестве основного языка английский и корейский языки, а в качестве второго - немецкий, французский, китайский и другие языки
+                        по выбору</p></div>
+                        <p>Переводческое дело</p>
                     </div>
-                    <div className='card'>
-                    <div className='text'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat porro accusamus in natus blanditiis sequi minima numquam cumque iure quis, quidem laudantium ipsum et, rem nobis pariatur molestiae eius dolorum.</p></div>
-                        <p>программирование</p>
+                    <div className='card__3'>
+                    <div className='text'><p>Ваша культура - это ваш бренд. Программа Цифрового маркетинга дает студентам знания, инструменты и образ мышления, необходимые для
+                        решения проблем, с которыми сегодня сталкиваются организации. Учебная программа сочетает в себе инновационные и фундаментальные курсы по маркетингу, такие
+                        как зеленый маркетинг и корпоративная социальная ответственность, аналитика цифрового маркетинга, SEO-продвижение, SEM, SMM и другие</p></div>
+                        <p>Цифровой маркетинг</p>
                     </div>
-                    <div className='card'>
-                    <div className='text'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat porro accusamus in natus blanditiis sequi minima numquam cumque iure quis, quidem laudantium ipsum et, rem nobis pariatur molestiae eius dolorum.</p></div>
-                        <p>программирование</p>
+                    <div className='card__4'>
+                    <div className='text'><p>Подготовка конкурентноспособных кадров, обладающих современными знаниями в области права и отвечающих потребностям отечественного и
+                        мирового рынков интеллектуального труда. Быть способным использовать передовые навыки коммуникации в области международного права. Престижная профессия
+                        «юрист» пользуется уважением в обществе. Кроме того, в этой сфере возможен рост по карьерной лестнице</p></div>
+                        <p>Право и коммуникация</p>
                     </div>
-                    <div className='card'>
-                    <div className='text'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat porro accusamus in natus blanditiis sequi minima numquam cumque iure quis, quidem laudantium ipsum et, rem nobis pariatur molestiae eius dolorum.</p></div>
-                        <p>программирование</p>
+                    <div className='card__5'>
+                    <div className='text'><p>Формирует специалистов нового поколения со знаниями не только отраслевых технологий но и передовых корпоративных финансов, инвестиций
+                        и финансового анализа с углубленным владением иностранных языков</p></div>
+                        <p>Финансовая аналитика</p>
                     </div>
-                    <div className='card'>
-                    <div className='text'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat porro accusamus in natus blanditiis sequi minima numquam cumque iure quis, quidem laudantium ipsum et, rem nobis pariatur molestiae eius dolorum.</p></div>
-                        <p>программирование</p>
+                    <div className='card__6'>
+                    <div className='text'><p>Вы узнаете, как создавать фирменный стиль, крутые логотипы, дизайн для полиграфии и веба. Научитесь уверенно работать в Illustrator
+                        и Photoshop — и добавите мощный проект в портфолио. Также вы научитесь анализировать задачи и находить креативные решения, создавать брендбуки и гайдлайны,
+                        эффектно презентовать собственные проекты и решения заказчикам</p></div>
+                        <p>Графический дизайн</p>
                     </div>
                 </div>
             </section>
-            <section className='cost'>
+            <section className='price'>
                 <h1>СТОИМОСТЬ ОБУЧЕНИЯ</h1>
                 <p>При высоком уровне обучения и самых передовых условий для студентов, цена годового контракта в нашем колледже сохранена на среднем рыночном уровне</p>
                 <div className="table">
                     <table>
                         <tr>
-                            <td><img src="https://nomad.iuk.kg/wp-content/uploads/2022/07/to-new-postup-3.png" alt="" /> it бизнес</td>
+                            <td><img src="https://nomad.iuk.kg/wp-content/uploads/2022/07/to-new-postup-3.png" alt="" /> IT бизнес</td>
                             <td>160 000 сом в год</td>
                         </tr>
                         <tr>
@@ -79,6 +92,44 @@ const Main = () => {
                             <td>100 000 сом в год</td>
                         </tr>
                     </table>
+                </div>
+            </section>
+            <section className='entrance'>
+                <h2>КОГДА И КАК ПОСТУПИТЬ В НОМАД КОЛЛЕДЖ</h2>
+                <p>Поступление проходит на основании вступительных тестов, по итогам которых если абитуриент набирает проходной балл, то он рекомендуется к зачислению в колледж!</p>
+                <h3>Даты туров:</h3>
+                <ul>
+                    <li>1-ый тур 12.07.2022 – 18.07.2022</li>
+                    <li>2-ой тур 27.07.2022 – 03.08.2022</li>
+                    <li>3-ий тур 12.08.2022 – 19.08.2022</li>
+                </ul>
+                <h3>Перечень необходимых документов для поступления:</h3>
+                <ul>
+                    <li>Свидетельство об окончании 9-го или 11-го класса (аттестат)</li>
+                    <li>Копия свидетельства о рождении или паспорта</li>
+                    <li>6 фото 3х4</li>
+                </ul>
+            </section>
+            <section className='contact'>
+                <h2>СВЯЖИТЕСЬ С НАМИ И ПОЛУЧИТЕ ПОДРОБНУЮ КОНСУЛЬТАЦИЮ</h2>
+                <div className="contact-info">
+                    <h3>АДРЕС</h3>
+                    <p>Кыргызстан, г. Бишкек, ул. 7 апреля 4А</p>
+
+                    <h3>ТЕЛЕФОН</h3>
+                    <p>Единый бесплатный номер: 9311</p>
+
+                    <h3>E-MAIL</h3>
+                    <p>nomad@iuk.kg</p>
+
+                    <h3>WHATSAPP</h3>
+                    <p>+996 (708) 422-942</p>
+
+                    <h3>TELEGRAM</h3>
+                    <p>+996 (708) 422-942</p>
+
+                    <h3>INSTAGRAM</h3>
+                    <p>@nomadcolledge.kg</p>
                 </div>
             </section>
             <section className='back2'>

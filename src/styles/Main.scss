@@ -102,6 +102,86 @@
             .card:hover .text {
                 transform: none;
             }
+            .card__2{
+                background: url('https://nomad.iuk.kg/wp-content/uploads/2022/07/perevoddelo-3.jpg') center/cover;
+                width:  calc(33.33% - 20px);
+                margin: 10px;
+                height: 500px;
+                background-color: #f0f0f0;
+                padding: 20px;
+                flex-wrap: wrap;
+                box-sizing: border-box;
+                position: relative;
+                padding-top: 420px;
+
+            }
+            .card__2:hover .text {
+                transform: none;
+            }
+            .card__3{
+                background: url('https://nomad.iuk.kg/wp-content/uploads/2022/07/SMM-1.jpg') center/cover;
+                width:  calc(33.33% - 20px);
+                margin: 10px;
+                height: 500px;
+                background-color: #f0f0f0;
+                padding: 20px;
+                flex-wrap: wrap;
+                box-sizing: border-box;
+                position: relative;
+                padding-top: 420px;
+
+            }
+            .card__3:hover .text {
+                transform: none;
+            }
+            .card__4{
+                background: url('https://nomad.iuk.kg/wp-content/uploads/2022/07/pravo.jpg') center/cover;
+                width:  calc(33.33% - 20px);
+                margin: 10px;
+                height: 500px;
+                background-color: #f0f0f0;
+                padding: 20px;
+                flex-wrap: wrap;
+                box-sizing: border-box;
+                position: relative;
+                padding-top: 420px;
+
+            }
+            .card__4:hover .text {
+                transform: none;
+            }
+            .card__5{
+                background: url('https://nomad.iuk.kg/wp-content/uploads/2022/07/finans.jpg') center/cover;
+                width:  calc(33.33% - 20px);
+                margin: 10px;
+                height: 500px;
+                background-color: #f0f0f0;
+                padding: 20px;
+                flex-wrap: wrap;
+                box-sizing: border-box;
+                position: relative;
+                padding-top: 420px;
+
+            }
+            .card__5:hover .text {
+                transform: none;
+            }
+            .card__6{
+                background: url('https://nomad.iuk.kg/wp-content/uploads/2022/07/grafdizajn.jpg') center/cover;
+                width:  calc(33.33% - 20px);
+                margin: 10px;
+                height: 500px;
+                background-color: #f0f0f0;
+                padding: 20px;
+                flex-wrap: wrap;
+                box-sizing: border-box;
+                position: relative;
+                padding-top: 420px;
+
+            }
+            .card__6:hover .text {
+                transform: none;
+            }
             .text{
                 display: flex;
                 justify-content: center;
@@ -123,7 +203,7 @@
 
         }
     }
-    .cost{
+    .price{
         padding: 50px 0;
         background-color: #f1f1f1;
         text-align: center;
@@ -159,6 +239,34 @@
             }
         }
     }
+    .entrance {
+        text-align: center;
+        position: relative; /* Для позиционирования псевдоэлемента */
+    }
+    
+    .entrance h2 {
+        color: white;
+        background-color: red;
+        width: 1120px;
+        height: 49px;
+        line-height: 49px;
+        margin: 0 auto;
+    }
+    
+    .entrance::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0; /* Располагаем линию внизу */
+        width: 100%; /* Занимает всю ширину родительского элемента */
+        height: 1px; /* Тонкая красная линия */
+        background-color: red;
+    }
+
+    .contact{
+        text-align: center;
+    }
+
     .back2{
         width: 100%;
         height: 80vh;
